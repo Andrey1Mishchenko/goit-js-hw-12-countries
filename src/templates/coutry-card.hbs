@@ -2,16 +2,16 @@
     <h1 class="country-name">{{name}}</h1>
     <div class="content-wrapper">
         <div class="text-wrapper">
-            <p class="primary-text country-capital">
+            <p class="primary-text">
                 Capital: <span class="secondary-text">{{capital}}</span>
             </p>
-            <p class="primary-text country-population">
+            <p class="primary-text">
                 Population: <span class="secondary-text">{{population}}</span>
             </p>
-            <ul class="primary-text country-languages-list">
+            <ul class="primary-text">
                 Languages:
                 {{#each languages}}
-                <li class="secondary-text country-languages-list-item">{{this.name}}</li>
+                <li class="secondary-text list-item">{{name}}</li>
                 {{/each}}
             </ul>
         </div>

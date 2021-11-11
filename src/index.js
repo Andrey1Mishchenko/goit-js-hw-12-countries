@@ -1,2 +1,3 @@
 import './sass/main.scss';
-import './js/countries';
+import '@pnotify/core/dist/BrightTheme.css';
+import './js/createCountrieCard';

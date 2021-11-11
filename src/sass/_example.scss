@@ -10,29 +10,86 @@
 
 body {
   margin: 0;
+  background-color: cadetblue;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell,
     'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
-.country-card {
+.search-country {
+  text-align: center;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.input {
+  background-color: rgba(161, 53, 34, 0.596);
+  border: 2px solid black;
+  border-radius: 10px;
+  padding: 10px;
+  margin-bottom: 50px;
+}
+
+.input::placeholder {
+  text-align: center;
+  color: black;
+}
+
+.notice {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+}
+
+.search-list {
+  margin: 0;
+}
+
+.search-list-item {
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+
+.country-card-wrapper {
+  margin: 0 auto;
   width: 50vw;
 }
 
+.country-card {
+  border: 2px solid black;
+  border-radius: 10px;
+  // margin: 0 auto;
+  padding: 10px;
+}
+
 .country-name {
-  outline: 1px solid green;
-  text-align: center;
+  margin: 0;
+  margin-bottom: 10px;
 }
 
 .content-wrapper {
-  outline: 1px solid yellow;
   display: flex;
   justify-content: space-around;
   align-items: center;
 }
 
 .text-wrapper {
-  outline: 1px solid blue;
-  padding-left: 30px;
+  text-align: left;
+  padding: 20px;
+}
+
+.text-wrapper p {
+  margin: 0;
+  margin-bottom: 10px;
+}
+
+ul {
+  margin: 0;
+
+  padding: 0;
+}
+
+.list-item {
+  margin: 10px 0 10px 20px;
 }
 
 .primary-text {
@@ -47,13 +104,9 @@ body {
   padding: 0;
 }
 
-.country-languages-list-item {
-  margin: 6px 20px;
-}
-
 .country-flag {
-  outline: 1px solid tomato;
-  margin-left: 30px;
+  border: 1px solid transparent;
+  border-radius: 20px;
   display: block;
   width: 300px;
   height: auto;
